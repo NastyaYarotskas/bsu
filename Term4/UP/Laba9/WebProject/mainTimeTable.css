@@ -1,0 +1,68 @@
+html {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.container{
+  margin-top: 20px;
+  padding: 15px;
+  -webkit-flex: 1 100%;       
+  flex: 0 100%;
+}
+
+.container table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  width: auto;
+  height: 500px;
+}
+.container td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+.container td {
+  text-align: center;
+}
+.container caption {
+  padding: 10px;
+}
+header {
+  background: black;
+  color:white; 
+  width: 100%;
+}
+
+header ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+  background-color: #111;
+}
+
+header .active {
+  background-color: #4CAF50;
+}
+@media all and (min-width: 1000px) {
+  .container table{width: 1000px;}        
+}

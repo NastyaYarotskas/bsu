@@ -1,0 +1,72 @@
+html { 
+  font-family: "Times New Roman", Times, serif;    
+  background: url("https://images3.alphacoders.com/594/594251.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;    
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-top: 20px;
+}
+
+.container{
+  padding: 15px;
+  -webkit-flex: 1 100%;       
+  flex: 0 100%;
+}
+
+.container h1{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  text-size:;
+}
+
+.container iframe{
+  position: absolute;		
+  top: 0; 
+  right: 0;
+  bottom: 0; 
+  left: 0;
+  margin: auto; 
+}
+header {
+  background: black;
+  color:white; 
+  width: 100%;
+}
+
+header ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+  background-color: #111;
+}
+
+header .active {
+  background-color: #4CAF50;
+}
+
+@media all and (min-width: 768px) {
+  .container iframe{width: 800px;}        
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel = "stylesheet" href = "main.css">	
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<header>		
+			<ul>
+				<li><a class="circle1" id="1" href="index1.html">Map</a></li>
+				<li><a class="circle2" id="2" href="index2.html">Table</a></li>			
+				<li><a class="circle3" id="3" href="index.html">Form</a></li>
+			</ul>
+		</header>
+
+		<div class="container-title-form">
+			<h1>Регистрация</h1>
+		</div>
+
+		<div class="result">
+			<p> TTTTT</p>
+		</div>
+
+		<form class="container-form" id="container-form">			
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star">*</span>
+								</td>
+								<td class="input-group-label">
+									<label for="id_answer_surname">Фамилия</label>
+								</td>
+								<td class="input-group-control">
+									<input type="text" class="input-group-control" id="first-name"></input>
+								</td>
+							</tr>
+						<tbody>
+					</table>
+				</div>
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star">*</span>
+								</td>
+								<td class="input-group-label">
+									<label for="id_answer_surname">Имя</label>
+								</td>
+								<td class="input-group-control">
+									<input type="text" class="input-group-control" id="second-name"></input>
+								</td>
+							</tr>
+						<tbody>
+					</table>
+				</div>
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star">*</span>
+								</td>
+								<td class="input-group-label">
+									<label for="id_answer_surname">Отчество</label>
+								</td>
+								<td class="input-group-control">
+									<input type="text" class="input-group-control" id="patronymic"></input>
+								</td>
+							</tr>
+						<tbody>
+					</table>
+				</div>
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star">*</span>
+								</td>
+								<td class="input-group-label">
+									<label for="id_answer_surname">Почта</label>
+								</td>
+								<td class="input-group-control">
+									<input type="text" class="input-group-control" id="mail"></input>
+								</td>
+							</tr>
+						<tbody>
+					</table>
+				</div>
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star">*</span>
+								</td>
+								<td class="input-group-label">
+									<label for="id_answer_surname">Учебное заведение</label>
+								</td>
+								<td class="input-group-control">
+									<div class="select-bday">
+										<select id="select">
+											<option class="select__option" id="0" value="нет">---</option>
+											<option class="select__option" id="1" value="БГУ">БГУ</option>
+											<option class="select__option" id="2" value="БГУИР">БГУИР</option>
+											<option class="select__option" id="3" value="БНТУ">БНТУ</option>		
+										</select>										
+									</div>									
+								</td>
+							</tr>
+						<tbody>
+					</table>
+				</div>
+			
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star">*</span>
+								</td>
+								<td class="input-group-label">
+									<label for="id_answer_surname">Сейчас вы:</label>
+								</td>							
+							</tr>
+
+							<tr>
+								<td class="input-group-required">
+								</td>
+								<td class="input-group-label" id="radio-groupe">									
+										<p><input name="radio" type="radio" id="radio-stud" value="студент"> студент</p>
+										<p><input name="radio" type="radio" id="radio-graduate"value="выпускник"> выпускник</p>
+										<p><input name="radio" type="radio" id="radio-worker" value="работающий специалист" checked> работающий специалист</p>										
+									
+								</td>
+								<td class="input-group-control">
+																		
+								</td>
+							</tr>							
+						<tbody>
+					</table>
+				</div>
+
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star">*</span>
+								</td>
+								<td class="input-group-label">
+									<label>Прикрепите портфолио или резюме</label>
+								</td>								
+							</tr>
+
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star"></span>
+								</td>								
+								<td class="input-group-control">
+									<input type="file" class="filestyle" name="image_src" id="image_src" data-input="false" class="fa fa-upload" data-buttonText="Upload File" />									
+								</td>
+							</tr>
+						<tbody>
+					</table>
+				</div>
+
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star">*</span>
+								</td>
+								<td class="input-group-label">
+									<label for="id_answer_surname">
+									Перечислите языки программирования и технологии, которые вы используете (в порядке убывания предпочтения). Оцените уровень владения ими.
+									</label>
+								</td>								
+							</tr>
+
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star"></span>
+								</td>								
+								<td class="input-group-control">
+									<textarea class="input_control" id="massege" name="" rows="10" min="1" max="None" cols="10" ></textarea>
+								</td>
+							</tr>
+						<tbody>
+					</table>
+				</div>
+
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star">*</span>
+								</td>
+								<td class="input-group-required">
+									<input type="checkbox" id="input-checkbox"name="option2" value="a2"> 
+								</td>
+								<td class="input-group-control">									
+									<span>
+										<label class="checkbox-label">
+											Я даю свое согласие на передачу &copy; nastyayarotskas@gmail.com анкеты, содержащей мои персональные данные.
+										</label>
+									</span>	
+								</td>
+
+							</tr>
+						<tbody>
+					</table>				
+				</div>
+
+				<div class="input-group-line">
+					<table class="input-group-line-inner">
+						<tbody>
+							<tr>
+								<td class="input-group-required">
+									<span class="input-group-required-star"></span>
+								</td>
+								<td class="input-group-label">									
+								</td>
+								<td class="input-group-control">
+									<div class="buttons">	
+
+										<button type="button" class="button" id="btn" onclick="onClick()"><img src="check.png" style="width:60px; height:60px;"/><!-- <i class="fa fa-check"></i>< --></button>
+
+										<button class="button" onclick="onCancel()"><img src="chancel.png" style="width:60px; height:60px;"/><!-- Cancel <i class="fa fa-times"></i> --></button>
+									</div>
+									
+								</td>
+							</tr>
+						<tbody>
+					</table>
+				</div>
+
+
+
+
+		</form>
+				
+		
+		<footer>
+			Created by &copy; nastyayarotskas@gmail.com
+		</footer>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
+
