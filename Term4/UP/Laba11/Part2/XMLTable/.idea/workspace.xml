@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="XmlPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XmlPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XmlPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-512">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="374">
+              <caret line="213" column="5" lean-forward="true" selection-start-line="158" selection-start-column="4" selection-end-line="213" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#921:1079" expanded="false" />
@@ -54,9 +54,7 @@
                 <element signature="e#4721#4722#0" expanded="true" />
                 <element signature="e#4804#4805#0" expanded="true" />
                 <element signature="e#4872#4873#0" expanded="true" />
-                <element signature="method#openBinary#0;class#XmlPanel#0" expanded="false" />
-                <element signature="method#saveBinary#0;class#XmlPanel#0" expanded="false" />
-                <element signature="method#openSax#0;class#XmlPanel#0" expanded="false" />
+                <element signature="e#5469#5478#0" expanded="true" />
                 <element signature="method#openDom#0;class#XmlPanel#0" expanded="false" />
                 <element signature="method#makeStudentList#0;class#XmlPanel#0" expanded="false" />
                 <element signature="method#addStudentsToTable#0;class#XmlPanel#0" expanded="false" />
@@ -72,11 +70,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="list1.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AquaFileChooserUI.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.desktop/com/apple/laf/AquaFileChooserUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="1916" column="0" lean-forward="false" selection-start-line="1916" selection-start-column="0" selection-end-line="1916" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SAXPars.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SAXPars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1082#1083#0" expanded="true" />
@@ -159,6 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,9 +195,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -351,6 +369,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -365,7 +384,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -389,7 +408,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/XmlPanel.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -430,9 +457,144 @@
             <element signature="e#4721#4722#0" expanded="true" />
             <element signature="e#4804#4805#0" expanded="true" />
             <element signature="e#4872#4873#0" expanded="true" />
-            <element signature="method#openBinary#0;class#XmlPanel#0" expanded="false" />
-            <element signature="method#saveBinary#0;class#XmlPanel#0" expanded="false" />
-            <element signature="method#openSax#0;class#XmlPanel#0" expanded="false" />
+            <element signature="e#5469#5478#0" expanded="true" />
+            <element signature="method#openDom#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#makeStudentList#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#addStudentsToTable#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#readXML#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#saveToXml#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#writeXML#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#addRow#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#deleteRow#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#removeDataFromTableModel#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#main#0;class#XmlPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SAXPars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="method#toString#0;class#Student#0" expanded="false" />
+            <element signature="method#equals#0;class#Student#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/XmlPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#921:1079" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="class#2525:2682" expanded="false" />
+            <element signature="e#2631#2632#0" expanded="true" />
+            <element signature="e#2671#2672#0" expanded="true" />
+            <element signature="class#2840:3000" expanded="false" />
+            <element signature="e#2946#2947#0" expanded="true" />
+            <element signature="e#2989#2990#0" expanded="true" />
+            <element signature="class#3333:4883" expanded="false" />
+            <element signature="e#4117#4118#0" expanded="true" />
+            <element signature="e#4173#4174#0" expanded="true" />
+            <element signature="e#4235#4236#0" expanded="true" />
+            <element signature="e#4297#4298#0" expanded="true" />
+            <element signature="e#4385#4386#0" expanded="true" />
+            <element signature="e#4429#4430#0" expanded="true" />
+            <element signature="e#4503#4504#0" expanded="true" />
+            <element signature="e#4556#4557#0" expanded="true" />
+            <element signature="e#4652#4653#0" expanded="true" />
+            <element signature="e#4721#4722#0" expanded="true" />
+            <element signature="e#4804#4805#0" expanded="true" />
+            <element signature="e#4872#4873#0" expanded="true" />
+            <element signature="e#5469#5478#0" expanded="true" />
+            <element signature="method#openDom#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#makeStudentList#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#addStudentsToTable#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#readXML#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#saveToXml#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#writeXML#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#addRow#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#deleteRow#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#removeDataFromTableModel#0;class#XmlPanel#0" expanded="false" />
+            <element signature="method#main#0;class#XmlPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SAXPars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/XmlPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#921:1079" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="class#2525:2682" expanded="false" />
+            <element signature="e#2631#2632#0" expanded="true" />
+            <element signature="e#2671#2672#0" expanded="true" />
+            <element signature="class#2840:3000" expanded="false" />
+            <element signature="e#2946#2947#0" expanded="true" />
+            <element signature="e#2989#2990#0" expanded="true" />
+            <element signature="class#3333:4883" expanded="false" />
+            <element signature="e#4117#4118#0" expanded="true" />
+            <element signature="e#4173#4174#0" expanded="true" />
+            <element signature="e#4235#4236#0" expanded="true" />
+            <element signature="e#4297#4298#0" expanded="true" />
+            <element signature="e#4385#4386#0" expanded="true" />
+            <element signature="e#4429#4430#0" expanded="true" />
+            <element signature="e#4503#4504#0" expanded="true" />
+            <element signature="e#4556#4557#0" expanded="true" />
+            <element signature="e#4652#4653#0" expanded="true" />
+            <element signature="e#4721#4722#0" expanded="true" />
+            <element signature="e#4804#4805#0" expanded="true" />
+            <element signature="e#4872#4873#0" expanded="true" />
+            <element signature="e#5469#5478#0" expanded="true" />
             <element signature="method#openDom#0;class#XmlPanel#0" expanded="false" />
             <element signature="method#makeStudentList#0;class#XmlPanel#0" expanded="false" />
             <element signature="method#addStudentsToTable#0;class#XmlPanel#0" expanded="false" />
@@ -502,9 +664,7 @@
             <element signature="e#4721#4722#0" expanded="true" />
             <element signature="e#4804#4805#0" expanded="true" />
             <element signature="e#4872#4873#0" expanded="true" />
-            <element signature="method#openBinary#0;class#XmlPanel#0" expanded="false" />
-            <element signature="method#saveBinary#0;class#XmlPanel#0" expanded="false" />
-            <element signature="method#openSax#0;class#XmlPanel#0" expanded="false" />
+            <element signature="e#5469#5478#0" expanded="true" />
             <element signature="method#openDom#0;class#XmlPanel#0" expanded="false" />
             <element signature="method#makeStudentList#0;class#XmlPanel#0" expanded="false" />
             <element signature="method#addStudentsToTable#0;class#XmlPanel#0" expanded="false" />
@@ -582,9 +742,7 @@
             <element signature="e#4721#4722#0" expanded="true" />
             <element signature="e#4804#4805#0" expanded="true" />
             <element signature="e#4872#4873#0" expanded="true" />
-            <element signature="method#openBinary#0;class#XmlPanel#0" expanded="false" />
-            <element signature="method#saveBinary#0;class#XmlPanel#0" expanded="false" />
-            <element signature="method#openSax#0;class#XmlPanel#0" expanded="false" />
+            <element signature="e#5469#5478#0" expanded="true" />
             <element signature="method#openDom#0;class#XmlPanel#0" expanded="false" />
             <element signature="method#makeStudentList#0;class#XmlPanel#0" expanded="false" />
             <element signature="method#addStudentsToTable#0;class#XmlPanel#0" expanded="false" />
@@ -687,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SAXPars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
@@ -697,10 +855,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.desktop/com/apple/laf/AquaFileChooserUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="1916" column="0" lean-forward="false" selection-start-line="1916" selection-start-column="0" selection-end-line="1916" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/XmlPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="374">
+          <caret line="213" column="5" lean-forward="true" selection-start-line="158" selection-start-column="4" selection-end-line="213" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#921:1079" expanded="false" />
@@ -733,9 +899,7 @@
             <element signature="e#4721#4722#0" expanded="true" />
             <element signature="e#4804#4805#0" expanded="true" />
             <element signature="e#4872#4873#0" expanded="true" />
-            <element signature="method#openBinary#0;class#XmlPanel#0" expanded="false" />
-            <element signature="method#saveBinary#0;class#XmlPanel#0" expanded="false" />
-            <element signature="method#openSax#0;class#XmlPanel#0" expanded="false" />
+            <element signature="e#5469#5478#0" expanded="true" />
             <element signature="method#openDom#0;class#XmlPanel#0" expanded="false" />
             <element signature="method#makeStudentList#0;class#XmlPanel#0" expanded="false" />
             <element signature="method#addStudentsToTable#0;class#XmlPanel#0" expanded="false" />
@@ -747,6 +911,14 @@
             <element signature="method#removeDataFromTableModel#0;class#XmlPanel#0" expanded="false" />
             <element signature="method#main#0;class#XmlPanel#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>

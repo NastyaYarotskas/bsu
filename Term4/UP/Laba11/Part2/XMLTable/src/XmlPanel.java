@@ -164,13 +164,31 @@ public class XmlPanel extends JPanel{
                 File file = jFileChooser.getSelectedFile();
                 FileInputStream fileInputStream = new FileInputStream(file);
                 ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-                ArrayList<Student> list = (ArrayList<Student>) objectInputStream.readObject();
-                objectInputStream.close();
+                ArrayList<Student> list = new ArrayList<Student>();
+                Object obj = null;
+
+                try{
+                    while(true){
+                        obj = objectInputStream.readObject();
+                        list.add((Student)obj);
+                        System.out.println(obj);
+                    }
+                } catch(EOFException e){
+
+                }
+
+               objectInputStream.close();
                 removeDataFromTableModel();
                 addStudentsToTable(list);
             }
-        } catch (IOException | ClassNotFoundException e) {
-            JOptionPane.showMessageDialog(null, e.getMessage());
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (Exception e){
+            e.printStackTrace();
         }
     }
 
@@ -183,8 +201,11 @@ public class XmlPanel extends JPanel{
                 FileOutputStream fileOutputStream = new FileOutputStream(file);
                 ArrayList<Student> list = makeStudentList();
                 ObjectOutputStream objectOutputStream =new ObjectOutputStream(fileOutputStream);
-                objectOutputStream.writeObject(list);
-                objectOutputStream.flush();
+                for(int i = 0; i < list.size(); i++){
+                    objectOutputStream.writeObject(list.get(i));
+                    System.out.println(list.get(i));
+                }
+                //objectOutputStream.flush();
                 objectOutputStream.close();
             }
         } catch (IOException e) {
@@ -198,7 +219,7 @@ public class XmlPanel extends JPanel{
             int r = jFileChooser.showDialog(null, "Open file");
             if (r == JFileChooser.APPROVE_OPTION) {
                 File file = jFileChooser.getSelectedFile();
-                SAXParserFactory factory =SAXParserFactory.newInstance();
+                SAXParserFactory factory = SAXParserFactory.newInstance();
                 SAXParser saxParser = factory.newSAXParser();
 
                 SAXPars saxp = new SAXPars();
