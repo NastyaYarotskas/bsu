@@ -1,9 +1,0 @@
-<?import javafx.scene.layout.GridPane?>
-<?import sample.LogTextArea?>
-<?import sample.PreviewLabel?>
-
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" onKeyReleased="#keyPressed">
-    <PreviewLabel GridPane.rowIndex="0" GridPane.columnIndex="1" fx:id="label" prefWidth="500" prefHeight="250"/>
-    <LogTextArea GridPane.rowIndex="0" GridPane.columnIndex="0" fx:id="textArea" prefWidth="500" prefHeight="250"/>
-</GridPane>
