@@ -10,6 +10,7 @@
 - [🌐 Компьютерные сети (Networks)](https://github.com/NastyaYarotskas/bsu/tree/master/networks)
 - [:bookmark: Бизнес-анализ (Business Intelligence)](https://github.com/NastyaYarotskas/bsu/tree/master/business_intelligence)
 - [:mag_right: Исследование операций (Decision Science)](https://github.com/NastyaYarotskas/bsu/tree/master/decision-science)
+- [:bomb: Технология программирования (Programming Technology)](https://github.com/NastyaYarotskas/bsu/tree/master/technology)
 
 <details>
 <summary>🔗 see also (useful links)</summary>
