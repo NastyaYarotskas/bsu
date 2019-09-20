@@ -7,6 +7,7 @@
 - [:bamboo: Теория Алгоритмов (Theory of algorithms)](https://github.com/NastyaYarotskas/bsu/tree/master/algorithms)
 - [:blue_book: Учебная практика (Educational Practice)](https://github.com/NastyaYarotskas/bsu/tree/master/education-practice)
 - [:bar_chart: Вычислительные Методы Алгебры & Методы Численного Анализа (Numerical Analysis)](https://github.com/NastyaYarotskas/bsu/tree/master/numerical-analysis)
+- [🌐 Компьютерные сети (Networks)](https://github.com/Drapegnik/bsu/tree/master/networks)
 
 <details>
 <summary>🔗 see also (useful links)</summary>
