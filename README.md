@@ -7,9 +7,9 @@
 - [:trophy: Теория Алгоритмов (Theory of algorithms)](https://github.com/NastyaYarotskas/bsu/tree/master/algorithms)
 - [:blue_book: Учебная практика (Educational Practice)](https://github.com/NastyaYarotskas/bsu/tree/master/education-practice)
 - [:bar_chart: Вычислительные Методы Алгебры & Методы Численного Анализа (Numerical Analysis)](https://github.com/NastyaYarotskas/bsu/tree/master/numerical-analysis)
-- [🌐 Компьютерные сети (Networks)](https://github.com/Drapegnik/bsu/tree/master/networks)
-- [:bookmark: Бизнес-анализ (Business Intelligence)](https://github.com/Drapegnik/bsu/tree/master/business_intelligence)
-- [:mag_right: Исследование операций (Decision Science)](https://github.com/Drapegnik/bsu/tree/master/decision-science)
+- [🌐 Компьютерные сети (Networks)](https://github.com/NastyaYarotskas/bsu/tree/master/networks)
+- [:bookmark: Бизнес-анализ (Business Intelligence)](https://github.com/NastyaYarotskas/bsu/tree/master/business_intelligence)
+- [:mag_right: Исследование операций (Decision Science)](https://github.com/NastyaYarotskas/bsu/tree/master/decision-science)
 
 <details>
 <summary>🔗 see also (useful links)</summary>
