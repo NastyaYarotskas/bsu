@@ -1,3 +1,5 @@
+package com.bsu.yarotskas;
+
 import java.util.Objects;
 
 public class Student extends Person implements Notifable{

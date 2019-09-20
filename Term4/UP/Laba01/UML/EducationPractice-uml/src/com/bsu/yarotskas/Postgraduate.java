@@ -1,4 +1,4 @@
-import java.util.Objects;
+package com.bsu.yarotskas;
 
 public class Postgraduate extends Student{
 

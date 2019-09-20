@@ -1,3 +1,5 @@
+package com.bsu.yarotskas;
+
 import java.util.Set;
 
 public class Notifier {

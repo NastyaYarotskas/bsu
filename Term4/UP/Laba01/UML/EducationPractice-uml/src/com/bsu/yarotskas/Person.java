@@ -1,3 +1,5 @@
+package com.bsu.yarotskas;
+
 public class Person {
 
     private String name;

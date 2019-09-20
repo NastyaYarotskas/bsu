@@ -1,3 +1,5 @@
+package com.bsu.yarotskas;
+
 public class Academic extends Person{
 
     public Academic(String name) {

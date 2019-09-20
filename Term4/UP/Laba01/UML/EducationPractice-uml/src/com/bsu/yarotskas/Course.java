@@ -1,3 +1,5 @@
+package com.bsu.yarotskas;
+
 import java.util.HashSet;
 import java.util.Set;
 

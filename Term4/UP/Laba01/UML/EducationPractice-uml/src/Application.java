@@ -1,6 +1,8 @@
+import com.bsu.yarotskas.*;
+
 import java.util.HashSet;
 
-public class ProgrammingTest {
+public class Application {
 
     public static void main(String[] args) {
 
