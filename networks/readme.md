@@ -1,4 +1,4 @@
-# Education Practice
+# :globe_with_meridians: Networks
 
 - [lab1](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab1) - Знакомство с Packet Tracer
 - [lab2](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab2) - Конфигурирование сетевых устройств
