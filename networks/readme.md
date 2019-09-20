@@ -1,14 +1,12 @@
 # Education Practice
 
-- [lab1](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba01) - UML Diagrams
-- [lab2](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba02) - Java: интерфейс пользователя
-- [lab3](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba03) - Класс Timer
-- [lab4](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba04) - JavaXF
-- [lab5](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba05) - Excel Date lite
-- [lab6](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba06) - Графика
-- [lab7](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba07) - Observer
-- [lab8](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba08) - Игра
-- [lab9](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba09) - Использование HTML
-- [lab10](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba10) - Использование HTML
-- [lab11](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba11) - XML Таблица
-- [lab12](https://github.com/NastyaYarotskas/bsu/tree/master/Term4/UP/Laba12) - XSLT
+- [lab1](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab1) - Знакомство с Packet Tracer
+- [lab2](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab2) - Конфигурирование сетевых устройств
+- [lab3](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab3) - Работа с сетевыми адресами
+- [lab4](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab4) - Статическая маршрутизация
+- [lab5](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab5) - Внедрение адресации VLSM
+- [lab6](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab6) - Конфигурация RIPv2 и ее проверка
+- [lab7](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab7) - Настройка параметров OSPF
+- [lab8](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab8) - Конфигурирование DHCP-сервера
+- [lab9](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab9) - Создание VLAN и назначение портов
+- [lab10](https://github.com/NastyaYarotskas/bsu/tree/master/networks/Lab10) - Настройка и проверка NAPT
